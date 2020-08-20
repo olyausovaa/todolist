@@ -1,0 +1,86 @@
+html,body {
+	min-width: 1000px;
+	font-family: Arial;
+	background-color: #fafafa;
+}
+
+#case-list {
+ width: 470px;
+ margin-top: 40px;
+ margin-left: 40px;
+ float: left;
+ margin-right: 20px;
+ 
+
+}
+
+i {
+	margin-left: 25px;
+	color: red;
+}
+
+.border {
+	border-bottom: 1px solid #fafafa;
+	padding-bottom: 10px;
+}
+
+.description {
+	font-size: 14px;
+	color: silver;
+	margin-top: 10px;
+}
+
+.case-item {
+	font-size: 16px;
+	width: 470px;
+	height: 140px;
+	background-color: white;
+	padding: 20px;
+	padding-right: 0;
+	margin-bottom: 20px;
+}
+
+#newcase {
+	margin-top: 40px;
+	margin-left: 20px;
+	width: 470px;
+	float: left;
+
+
+
+}
+
+#add-case {
+	width: 470px;
+	height: 500px;
+	background-color: white;
+	padding: 20px;
+	color: grey;
+	font-size: 14px;
+	
+}
+
+#nameholder {
+	border: 1px solid silver;
+	background-color: #fafafa;
+	height: 40px;
+	width: 388px;
+	margin-top: 10px;
+}
+
+#descholder {
+	border: 1px solid silver;
+	background-color: #fafafa;
+	height: 230px;
+	width: 388px;
+	margin-top: 10px;
+}
+
+button {
+	height: 55px;
+	width: 225px;
+	color: white;
+	background-color: blue;
+	border: none;
+	font-size: 16px;
+}

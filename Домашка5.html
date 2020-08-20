@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Список дел</title>
+	<link rel="stylesheet" type="text/css" href="ListStyle.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="ListScript.js"></script>
+</head>
+<body>
+
+	<div id="case-list"><h4>Список дел:</h4>
+		<div class="case-item"><div class="border">
+			Купить апельсины
+			<i class="fas fa-times"></i></div>
+			<div class="description">По цене 50 рублей за штуку</div>
+		</div>
+
+		<div class="case-item"><div class="border">
+			Позвонить маме
+			<i class="fas fa-times"></i></div>
+			<div class="description">Пригласить в кафе, заказать лекарства</div>
+		</div>
+	</div>
+
+	<div id="newcase"><h4>Добавить новое дело:</h4>
+		<div id="add-case">
+			<div id="name">*Название<br><textarea id="nameholder"></textarea></div>
+			<br>
+			<div id="description">*Описание<br><textarea id="descholder"></textarea></div>
+			<br>
+			<button id="submit-button">Добавить дело</button>
+		</div>
+	</div>
+</body>
+</html>
